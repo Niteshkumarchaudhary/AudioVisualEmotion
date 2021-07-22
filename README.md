@@ -7,12 +7,12 @@
 >	| data/test
 > >		| happy
 > >		| neutral
-> >             | angry
+> >		| angry
 > >		...
 >	| data/train
 > >		| happy
 > >		| neutral
-> >             | angry
+> >		| angry
 > >		...
 
 
