@@ -2,6 +2,10 @@
 #### Categorizing facial expression into different class of emotion plays an important role in automatic emotions/sentiments recognition varying over time. we extracted feature embeddings by using Inceptionv3 architecture and trained it with RNN network topology
 ### Download Ravdess data: https://zenodo.org/record/1188976#.YPjw45MzbRY
 
+## Requirements
+
+`pip3 install -r requirements.txt`
+
 1. Place the videos from your dataset in data/train and data/test folders. Each video type should have its own folder
 
 >	| data/test
@@ -34,7 +38,4 @@
 `	$ python3 train_split.py 60 8 720 1280`
         Features shape: Number of samples x 60 x 2048
 
-## Requirements
-
-`pip3 install -r requirements.txt`
 
